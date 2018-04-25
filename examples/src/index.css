@@ -1,0 +1,41 @@
+.app{
+    background-color: #8c94cc;
+    text-align: center;
+    font-size: larger;
+    color: #322c4f;
+    padding-top: 5px;
+}
+
+.italics{
+    font-style: italic;
+}
+
+.toggle-components{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+}
+
+.drop-box{
+    height: 50vh;
+    width: 50vw;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.draggable-div{
+    height: 15vh;
+    width: 15vw;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fdfdab;
+    font-weight: bold;
+    font-size: 2rem;
+}
