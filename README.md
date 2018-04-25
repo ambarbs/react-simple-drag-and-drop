@@ -55,7 +55,7 @@ const App = () => (
 A dataKey to hold some data from the dragged element
 
 ##### `selectedSwitch`: number
-Customized data object you want to set and drag to Droppable component.
+Customized data object you want to set and drag to Droppable component
 
 ##### `onDragCallback`: function
 A callback function for onDrag
@@ -63,13 +63,16 @@ A callback function for onDrag
 ##### `isDragAndDropElement`: boolean
 Pass this as `true` if you want to drag and drop the complete element
 
+##### `sourceID`: string
+ID for the Draggable component. Required if the complete element is needed to be dropped
+
 ### Droppable
 
 ##### `dataKey`: string
 A dataKey to hold some data from the dragged element. This dataKey should be same as in the Draggable component
 
 ##### `selectedSwitch`: number
-Customized data object you want to set and drag to Droppable component.
+Customized data object you want to set and drag to Droppable component
 
 ##### `onDropCallback`: function
 A callback function for onDrop

@@ -1,6 +1,6 @@
 {
   "name": "react-simple-drag-n-drop",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple React Drag and Drop HOC components",
   "main": "dist/index.js",
   "scripts": {
